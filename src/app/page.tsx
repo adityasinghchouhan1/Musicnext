@@ -1,5 +1,6 @@
 import FeacturesCourses from "./components/FeacturesCourses";
 import HeroSection from "./components/HeroSection";
+import MSchoolTesimonialCards from "./components/TesimonialCards";
 import WhyChooseUs from './components/WhyChooseUs'
 
 export default function Home(){
@@ -8,6 +9,7 @@ export default function Home(){
     <HeroSection/>
     <FeacturesCourses/>
     <WhyChooseUs/>
+    <MSchoolTesimonialCards/>
 </main>
   )
 }
