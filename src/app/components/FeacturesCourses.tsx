@@ -39,9 +39,14 @@ const FeacturesCourses = () => {
       </div>
       </div>
       <div className='mt-20 text-center'>
-        <Link href={'/courses'} className='bg-white'>
-        View All Courses</Link>
-        </div></div></>
+  <Link
+    href="/courses"
+    className="inline-block bg-transparent text-sm border-2 p-3 font-semibold font-serif rounded-full border-cyan-300 hover:scale-95 transition-transform duration-300 ease-in-out transform"
+  >
+    View All Courses
+  </Link>
+</div>
+</div></>
   )
 }
 
