@@ -1,6 +1,7 @@
 import FeacturesCourses from "./components/FeacturesCourses";
 import HeroSection from "./components/HeroSection";
 import MSchoolTesimonialCards from "./components/TesimonialCards";
+import UpcomingWebinars from "./components/UpcomingWebinars";
 import WhyChooseUs from './components/WhyChooseUs'
 
 export default function Home(){
@@ -10,6 +11,7 @@ export default function Home(){
     <FeacturesCourses/>
     <WhyChooseUs/>
     <MSchoolTesimonialCards/>
+    <UpcomingWebinars/>
 </main>
   )
 }
