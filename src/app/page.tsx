@@ -5,6 +5,7 @@ import MSchoolTesimonialCards from './components/TesimonialCards'
 import UpcomingWebinars from './components/UpcomingWebinars'
 import WhyChooseUs from './components/WhyChooseUs'
 import Instructores from './components/Instructores'
+import Footer from './components/Footer'
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <MSchoolTesimonialCards />
       <UpcomingWebinars />
       <Instructores />
+      <Footer />
     </main>
   )
 }
