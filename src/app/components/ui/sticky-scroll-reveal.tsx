@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect, useRef, useState } from "react";
+import "../../globals.css";
+
 import { useMotionValueEvent, useScroll } from "motion/react";
 import { motion } from "motion/react";
 import { cn } from "../../utils/utils";
@@ -64,8 +66,8 @@ export const StickyScroll = ({
       animate={{
         backgroundColor: backgroundColors[activeCard % backgroundColors.length],
       }}
-      className="relative flex h-[30rem] justify-center space-x-10 overflow-y-auto rounded-md p-10"
-      ref={ref}
+      className="relative flex h-[30rem] justify-center space-x-10 overflow-y-auto rounded-md p-10  scrollbar-hide"
+      ref={ref} 
     >
       <div className="div relative flex items-start px-4">
         <div className="max-w-2xl">
